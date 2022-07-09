@@ -5,9 +5,9 @@ Console.WriteLine("Введите второе число: ");
 int numberB = int.Parse(Console.ReadLine());
 if (numberA > numberB)
 {
-    Console.WriteLine("Max Nubmer = " + numberA);
+    Console.WriteLine("Максимальное число = " + numberA);
 }
 if (numberB > numberA)
 {
-    Console.WriteLine("Max Nubmer = " + numberB);
+    Console.WriteLine("Максимальное число = " + numberB);
 }
