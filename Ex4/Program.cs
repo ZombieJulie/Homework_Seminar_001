@@ -6,8 +6,8 @@ int numberB = int.Parse(Console.ReadLine());
 Console.WriteLine("Введите третье число: ");
 int numberC = int.Parse(Console.ReadLine());
 if (numberA > numberB && numberA > numberC)
-    Console.WriteLine("Nubmer Max = " + numberA); 
+    Console.WriteLine("Максимальное число = " + numberA); 
 else if (numberB > numberC)
-    Console.WriteLine("Number Max = " + numberB); 
+    Console.WriteLine("Максимальное число = " + numberB); 
 else
-    Console.WriteLine("Number Max = " + numberC); 
+    Console.WriteLine("Максимальное число = " + numberC); 
